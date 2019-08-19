@@ -27,7 +27,7 @@ module.exports = (app) => {
         .all((req, res, next) => {
 
             switch (req.method) {
-                case 'PUT':
+                case 'PATCH':
                     req.body.status = 'U';
                     break;
 
@@ -64,7 +64,7 @@ module.exports = (app) => {
                     res.status(500).json(error);
                 });
         })
-        .put((req, res) => {
+        .patch((req, res) => {
             console.log(req.body);
 
             Users.update(req.body, { where: req.params })
