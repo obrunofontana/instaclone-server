@@ -1,6 +1,6 @@
-# instacloneapi
+# Insta Clone API
 
-Para testar a aplicação realizar o clone deste repositório com o comando abaixo:
+Para testar a aplicação deve ser realizado o clone deste repositório com o comando abaixo:
 
 git clone https://github.com/obrunofontana/instacloneapi.git
 
